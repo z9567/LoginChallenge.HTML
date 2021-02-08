@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  padding: 2;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  line-height: 1.618;
+  font-family: sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+fieldset,
+button {
+  border: 0;
+}
+
+/* layout of login section provided */
+.login {
+  min-width: 500px;
+  height: 100%;
+  padding: 30px;
+}
+
+
+/* layout of call-to-action section provided */
+.call-to-action {
+  width: calc(100% - 500px);
+  height: 100%;
+  background: rgb(24, 48, 89);
+  color: white;
+  padding: 0 20px;
+  text-align:center;
+}
+
+.btn-primary{
+  background-color:#00FF00;
+}
+
+header{
+  text-align:center;
+}
